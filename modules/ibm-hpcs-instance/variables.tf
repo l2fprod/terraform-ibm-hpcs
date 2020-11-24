@@ -41,7 +41,3 @@ variable "number_of_crypto_units" {
   type        = number
   description = "No of crypto units that has to be attached to the instance."
 }
-variable "ibmcloud_api_key" {
-  type        = string
-  description = "IBM Cloud API Key"
-}
